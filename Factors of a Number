@@ -1,0 +1,15 @@
+""Factors of a number are the whole numbers that can be multiplied together to produce the given number""
+" 2 * 6 = 12 " = here 2 and 6 are the factors
+
+#code
+# method to print the divisors
+def printDivisors(n) :
+    i = 1
+    while i <= n :
+        if (n % i==0) :
+            print (i,end=" ")
+        i = i + 1
+         
+# Driver method
+print ("The divisors of 100 are: ")
+printDivisors(100)
